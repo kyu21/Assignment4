@@ -18,8 +18,3 @@ button{
     cursor: pointer;
     border-radius: 25px;
 }
-.centerFlex {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
