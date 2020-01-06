@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h1>Part 1: Disagreeing Buttons</h1>
+	<br><br>
+	<button id="button1">Click Me!</button>
+	<button id="button2">Click Me!</button>
+	<p id="changing-text"></p>
+
+    <script>
+    	document.getElementById("button1").addEventListener("click", function() {
+    		document.getElementById("changing-text").innerHTML = "I'm right!";
+    	});
+    	document.getElementById("button2").addEventListener("click", function() {
+    		document.getElementById("changing-text").innerHTML = "No, I'm right!";
+    	});
+    </script>
+</body>
+
+</html>
