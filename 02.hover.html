@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h1>Part 2: Don't Hover</h1>
+	<br><br>
+    <div class="hover">
+        <p id="dont-hover">Don't hover over me!</p>
+    </div>
+
+    <script>
+    	document.getElementById("dont-hover").addEventListener("mouseover", function() {
+    		alert('Hey, I told you not to hover over me!');
+    	});
+    </script>
+</body>
+
+</html>
